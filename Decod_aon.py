@@ -1,3 +1,4 @@
+k=1
 def aon_decode(stri):
     if len(stri) < 2 or stri.isalpha():
         return "empty"
