@@ -1,0 +1,9 @@
+print "any"
+from scr_my import gnome_sort as g
+if __name__ == '__main__':
+     print "main",__name__
+     import scr_my
+else:
+     print "import",__name__
+
+g("111")
