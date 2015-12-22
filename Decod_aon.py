@@ -27,14 +27,11 @@ def aon_decode(stri):
             string_result += decoded[i]
         return string_result
 
-if __name__ == '__main__':
-    print aon_decode("##332411666614327766#####5665666655###66655")
-    print aon_decode("11223322444##44##66")
-    print aon_decode("1122332222777#555997")
-    print aon_decode("")
-    print aon_decode("##112")
-    print aon_decode("1")
-    print aon_decode("aaa")
-    print aon_decode("#11222")
-else:
-    print "YABABABAA"
+print aon_decode("##332411666614327766#####5665666655###66655")
+print aon_decode("11223322444##44##66")
+print aon_decode("1122332222777#555997")
+print aon_decode("")
+print aon_decode("##112")
+print aon_decode("1")
+print aon_decode("aaa")
+print aon_decode("#11222")
