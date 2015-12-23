@@ -1,5 +1,6 @@
 # Gnome sort
-
+k = 1
+v = 2
 def gnome_sort(unsort_str):
     unsort = [each for each in unsort_str]
     i = 1
